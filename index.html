@@ -1,37 +1,61 @@
-<html>
-<head>
-
-  <link rel = "stylesheet" href =Widget.jsx />
-</head>
-
-<div class="bg-background text-foreground">
-  <header class="flex justify-between p-6">
-    <div class="text-xl font-bold">Anne Marie</div>
-    <nav class="space-x-4">
-      <a href="#" class="text-muted hover:text-muted-foreground">HOME</a>
-      <a href="#" class="text-muted hover:text-muted-foreground">WORK</a>
-      <a href="#" class="text-muted hover:text-muted-foreground">ABOUT</a>
-      <a href="#" class="text-muted hover:text-muted-foreground">BLOG</a>
-      <a href="#" class="text-muted hover:text-muted-foreground">FAQs</a>
-      <a href="#" class="text-muted hover:text-muted-foreground">CONTACT</a>
-    </nav>
-  </header>
-
-  <main class="flex flex-col items-center">
-    <div class="relative w-full h-96">
-      <img src="https://placehold.co/600x400" alt="Lifestyle Photography" class="absolute inset-0 object-cover w-full h-full" />
-      <div class="absolute inset-0 flex flex-col justify-center items-center text-center text-white">
-        <h1 class="text-4xl font-bold">Lifestyle Photography</h1>
-        <p class="mt-2 text-lg">CAPTURING THE MOMENT</p>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anne Marie - Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <style>
+      :root {
+        --background: #f7f7f7;
+        --foreground: #333333;
+        --primary: #4a90e2;
+        --border: #d1d1d1;
+        --input: #f4f4f4;
+        --ring: #4a90e2;
+        --primary-foreground: #ffffff;
+        --secondary: #6d6d6d;
+        --secondary-foreground: #ffffff;
+        --accent: #ffcc00;
+        --accent-foreground: #333333;
+        --destructive: #ff4136;
+        --destructive-foreground: #ffffff;
+        --muted: #999999;
+        --muted-foreground: #ffffff;
+        --card: #ffffff;
+        --card-foreground: #333333;
+        --popover: #ffffff;
+        --popover-foreground: #333333;
+      }
+    </style>
+  </head>
+  <body class="bg-background text-foreground">
+    <header class="flex justify-between p-6">
+      <div class="text-xl font-bold">Anne Marie</div>
+      <nav class="space-x-4">
+        <a href="#" class="text-muted hover:text-muted-foreground">HOME</a>
+        <a href="#" class="text-muted hover:text-muted-foreground">WORK</a>
+        <a href="#" class="text-muted hover:text-muted-foreground">ABOUT</a>
+        <a href="#" class="text-muted hover:text-muted-foreground">BLOG</a>
+        <a href="#" class="text-muted hover:text-muted-foreground">FAQs</a>
+        <a href="#" class="text-muted hover:text-muted-foreground">CONTACT</a>
+      </nav>
+    </header>
+    <main class="flex flex-col items-center">
+      <div class="relative w-full h-96">
+        <img src="https://placehold.co/600x400" alt="Lifestyle Photography" class="absolute inset-0 object-cover w-full h-full" />
+        <div class="absolute inset-0 flex flex-col justify-center items-center text-center text-white">
+          <h1 class="text-4xl font-bold">Lifestyle Photography</h1>
+          <p class="mt-2 text-lg">CAPTURING THE MOMENT</p>
+        </div>
       </div>
-    </div>
-
-    <section class="mt-10 text-center">
-      <h2 class="text-2xl font-semibold">Hello! I am Anne.</h2>
-      <p class="mt-4 text-muted-foreground">
-        Write something about yourself here. Paragraph text comes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      </p>
-    </section>
-  </main>
-</div>
+      <section class="mt-10 text-center">
+        <h2 class="text-2xl font-semibold">Hello! I am Anne.</h2>
+        <p class="mt-4 text-muted-foreground">
+          Write something about yourself here. Paragraph text comes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </section>
+    </main>
+  </body>
 </html>
